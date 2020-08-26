@@ -1,0 +1,53 @@
+body{
+    background-color:#000000;
+    color:white;
+    margin: 2.5cm 2cm;
+    padding:5px 85px;
+    border:3px solid white;
+    height:1400px;
+    font-family: "Courier New", sans-serif;
+
+}
+.footer{
+    text-align: center;
+    position: relative;
+    bottom:560px;
+}
+
+.bhp{
+    font-size:x-large;
+    position: relative;
+    bottom:600px;
+    left:530px;
+
+}
+.bh{
+    color: white;
+}
+.p{
+    position: relative;
+    left:550px;
+}
+.clear{
+    clear:both;
+}
+
+.picture2{
+    position: relative;
+    left:350px;
+    bottom:302px;
+}
+.picture3{
+    position: relative;
+    left:705px;
+    bottom:605px;
+}
+.picture4{
+    position: relative;
+    left:1050px;
+    bottom:908px;
+}
+.picture5{
+    position: relative;
+    bottom:900px;
+}
