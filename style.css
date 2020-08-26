@@ -4,7 +4,6 @@ body{
     margin: 2.5cm 2cm;
     padding:5px 85px;
     border:3px solid white;
-    height:1400px;
     font-family: "Courier New", sans-serif;
 
 }
@@ -14,38 +13,24 @@ body{
     float: left;
 }
 .ghair{
-    position: relative;
-    left:345px;
-    bottom:303px;
-    
+    float: left; 
+    margin-left: 25px;
 }
 .clear{
     clear:both;
 }
 .lbhair{
-    position: relative;
-    left:690px;
-    bottom:605px;
+    float: right;
+   
 }
 .lghair{
-    position: relative;
-    left:1030px;
-    bottom:907px;
+    float: right;
+    margin-right: 25px;
 }
-.table{
-    font-size: x-large;
-    position: relative;
-    bottom:800px;
-    left:590px;
-    width:150px;
-    height:300px;
-    border: 5px solid white;
-    text-align: center;
-}
+
 .footer{
     text-align: center;
-    position: relative;
-    bottom:500px;
+    
 }
 .prices{
     color: white;
@@ -59,11 +44,10 @@ body{
 .gallery{
     color: white;
 }
-.footer1{
-    text-align: center;
-    position: relative;
-    top:620px;
+.hp{
+    color: white;
 }
+
 .ptable1{
     text-align: center;
     position: relative;
@@ -72,28 +56,14 @@ body{
 }
 .bhp1{
     font-size:x-large;
-    position: relative;
-    top:600px;
-    left:550px;
+   text-align: center;
 }
 
-.footer2{
-    text-align: center;
-    position: relative;
-    top:820px;
-}
+
 .ptable2{
     text-align: center;
-    position: relative;
-    right:22px;
     font-size: 26px;
-    top:100px;
-}
-.bhp2{
-    font-size:x-large;
-    position: relative;
-    top:750px;
-    left:530px;
+
 }
 .bh{
     color: white;
@@ -102,13 +72,6 @@ body{
     text-align: center;
     position: relative;
     top:250px;
-}
-
-.bhp3{
-    font-size:x-large;
-    position: relative;
-    top:230px;
-    left:530px;
 }
 
 .p{
@@ -121,41 +84,36 @@ body{
     left:25px;
 }
 .picture{
-    position: relative;
-    left:450px;
-    top:20px;
-}
-.footer4{
     text-align: center;
-    position: relative;
-    bottom:560px;
 }
-
-.bhp4{
-    font-size:x-large;
-    position: relative;
-    bottom:600px;
-    left:530px;
-
+.picture1{
+    float: left;
 }
-
-
 .picture2{
-    position: relative;
-    left:350px;
-    bottom:302px;
+   float: left;
 }
 .picture3{
-    position: relative;
-    left:705px;
-    bottom:605px;
+    float: right;
 }
 .picture4{
-    position: relative;
-    left:1050px;
-    bottom:908px;
+    float: right;
 }
-.picture5{
-    position: relative;
-    bottom:900px;
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
 }
